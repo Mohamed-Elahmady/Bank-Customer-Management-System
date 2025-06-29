@@ -139,6 +139,25 @@ Error_States Load_Customers_From_File(System *Bank, FILE *data_base)
     return (state);
 }
 
+
+Error_States Display_Customer_information(System *Bank, uint32 id)
+{
+    Error_States state = OP_Success;
+    if (Bank == NULL)   state = OP_Failed;
+    sint32 index = find_customer_id(Bank,id);
+    // if user is not found
+    if (index == -1)    printf("Customer Id Not Found, try again!\n");
+    // if user is found
+    else
+    {
+        printf("Customer Report for %s:\n", Bank->Customers[index].name);
+        printf("Customer's ID: %lu\n", Bank->Customers[index].ID);
+        printf("Customer's Phone Number: %lu\n", Bank->Customers[index].Phone_Number);
+        printf("Customer's Cash Amoubt: %lu\n", Bank->Customers[index].Cash_Amount);   
+    }
+    return state;
+}
+
 /******************* Section 2 :  Helper Functions Definitions *******************/
 
 static bool valid_phone_number(uint32 num){
