@@ -1,19 +1,17 @@
 /******************* Section 0 : Includes *******************/
-
 #include "Banking_Operations.h"
 
 /******************* Section 1 :  Variables Definitions *******************/
 
 /******************* Section 2 :  Helper Functions Declarations *******************/
-
 static bool valid_phone_number(uint32 num);
 static sint32 find_customer_id(System *Bank, uint32 target);
 static Error_States Data_Base_Overwrite_data(System *Bank, FILE *data_base);
 static bool Check_Repeated_Customer_ID(System *Bank, uint32 id);
 static bool Check_Repeated_Customer_Phone_Number(System *Bank, uint32 phone);
+static sint32 find_customer_index(System *Bank, uint32 id); // From your part
 
 /******************* Section 3 : Software Interfaces Definitions (APIs) *******************/
-
 System *System_init(Error_States *state)
 {
     System *Bank = NULL;
@@ -139,8 +137,44 @@ Error_States Load_Customers_From_File(System *Bank, FILE *data_base)
     return (state);
 }
 
-/******************* Section 2 :  Helper Functions Definitions *******************/
+// Deposit Function
 
+Error_States Customer_Deposit_Money(System *Bank, FILE *data_base, uint32 id, uint32 money) {
+    sint32 index = find_customer_index(Bank, id);
+
+    if (index == System_Empty) {
+        printf("Error: Customer ID %d not found.\n", id);
+        return OP_Failed;
+    }
+
+    Bank->Customers[index].Cash_Amount += money;
+
+    printf("%d deposited. New balance: %d\n", money, Bank->Customers[index].Cash_Amount);
+    return OP_Success;
+}
+
+// Withdraw Function
+
+Error_States Customer_Withdraw_Money(System *Bank, FILE *data_base, uint32 id, uint32 money) {
+    sint32 index = find_customer_index(Bank, id);
+
+    if (index == System_Empty) {
+        printf("Error: Customer ID %d not found.\n", id);
+        return OP_Failed;
+    }
+
+    if (Bank->Customers[index].Cash_Amount < money) {
+        printf("Insufficient funds. Balance: %d\n", Bank->Customers[index].Cash_Amount);
+        return OP_Failed;
+    }
+
+    Bank->Customers[index].Cash_Amount -= money;
+
+    printf("%d withdrawn. Remaining balance: %d\n", money, Bank->Customers[index].Cash_Amount);
+    return OP_Success;
+}
+
+/******************* Section 4 : Helper Functions Definitions *******************/
 static bool valid_phone_number(uint32 num){
     bool flag = true;
     for (int i = 0; i < 8; i++)
@@ -174,6 +208,15 @@ static sint32 find_customer_id(System *Bank, uint32 target)
         }
     }
     return (index);
+}
+
+static sint32 find_customer_index(System *Bank, uint32 id) {
+    for (uint32 i = 0; i < Bank->Customer_pointer; i++) {
+        if (Bank->Customers[i].ID == id) {
+            return i;
+        }
+    }
+    return System_Empty;
 }
 
 static Error_States Data_Base_Overwrite_data(System *Bank, FILE *data_base)
