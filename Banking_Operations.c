@@ -6,10 +6,10 @@
 /******************* Section 2 :  Helper Functions Declarations *******************/
 static bool valid_phone_number(uint32 num);
 static sint32 find_customer_id(System *Bank, uint32 target);
+static sint32 find_customer_index(System *Bank, uint32 id);
 static Error_States Data_Base_Overwrite_data(System *Bank, FILE *data_base);
 static bool Check_Repeated_Customer_ID(System *Bank, uint32 id);
 static bool Check_Repeated_Customer_Phone_Number(System *Bank, uint32 phone);
-static sint32 find_customer_index(System *Bank, uint32 id); // From your part
 
 /******************* Section 3 : Software Interfaces Definitions (APIs) *******************/
 System *System_init(Error_States *state)
@@ -150,7 +150,9 @@ Error_States Customer_Deposit_Money(System *Bank, FILE *data_base, uint32 id, ui
     Bank->Customers[index].Cash_Amount += money;
 
     printf("%d deposited. New balance: %d\n", money, Bank->Customers[index].Cash_Amount);
-    return OP_Success;
+
+    // Overwrite the database after deposit
+    return Data_Base_Overwrite_data(Bank, data_base);
 }
 
 // Withdraw Function
@@ -171,7 +173,9 @@ Error_States Customer_Withdraw_Money(System *Bank, FILE *data_base, uint32 id, u
     Bank->Customers[index].Cash_Amount -= money;
 
     printf("%d withdrawn. Remaining balance: %d\n", money, Bank->Customers[index].Cash_Amount);
-    return OP_Success;
+
+    // Overwrite the database after withdrawal
+    return Data_Base_Overwrite_data(Bank, data_base);
 }
 
 /******************* Section 4 : Helper Functions Definitions *******************/
