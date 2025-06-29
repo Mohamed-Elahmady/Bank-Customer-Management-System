@@ -32,10 +32,14 @@ int main(){
         delay(delay_time);
         break;
     case 2:
-        
+        printf("Enter your ID: ");
+        scanf("%ld", &target_customer);
+        retval = Edit_Customer(Bank,data_base,target_customer);
         break;
     case 3:
-        
+        printf("Please Enter Customer ID : ");
+        scanf("%ld", &target_customer);
+        retval = Display_Customer_information(Bank,target_customer);
         break;
     case 4:
         break;
