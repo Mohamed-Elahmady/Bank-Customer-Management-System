@@ -1,0 +1,24 @@
+Customer [1]
+Customer's Name : Mohammed Ghareb
+Customer's ID : 222444
+Customer's Phone Number : 01507001083
+Customer's Cash Amount : 7000000
+------------------------------------------------------------------------
+Customer [2]
+Customer's Name : Mahmoud Elsayed
+Customer's ID : 111222
+Customer's Phone Number : 01029998490
+Customer's Cash Amount : 1234000
+------------------------------------------------------------------------
+Customer [3]
+Customer's Name : Ibrahim
+Customer's ID : 123456
+Customer's Phone Number : 01034309210
+Customer's Cash Amount : 12345678
+------------------------------------------------------------------------
+Customer [4]
+Customer's Name : Sayed
+Customer's ID : 885599
+Customer's Phone Number : 01122996830
+Customer's Cash Amount : 489000
+------------------------------------------------------------------------

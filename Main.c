@@ -2,13 +2,15 @@
 
 Error_States retval = OP_Success;
 uint8 OPCode;
+uint32 target_customer = 0;
+uint32 C_id,D_id,t_money;
 
 int main(){
 
-    // System *Bank = System_init(&retval); 
+    System *Bank = System_init(&retval); 
     FILE *data_base = fopen(FILE_PATH, "a+");
 
-    // Load_Customers_From_File(Bank, data_base);
+    Load_Customers_From_File(Bank, data_base);
     label:
     printf("------------------------------------------------------------------------\n");
     printf("What is the Operation u need : \n");
@@ -26,16 +28,16 @@ int main(){
     switch (OPCode)
     {
     case 1:
-        
+        retval = Create_Customer(Bank, data_base);
+        delay(delay_time);
         break;
     case 2:
-       
+        
         break;
     case 3:
         
         break;
     case 4:
-
         break;
     case 5:
         

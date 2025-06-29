@@ -44,17 +44,12 @@ typedef struct
 
 /******************* Section 5 : Software Interfaces Declarations (APIs) *******************/
 System *System_init(Error_States *state);
-
-// Ahmady
 Error_States Create_Customer(System *Bank, FILE *data_base);
 Error_States Load_Customers_From_File(System *Bank, FILE *data_base);
-// 
 Error_States Edit_Customer(System *Bank, FILE *data_base, uint32 id);
 Error_States Display_Customer_information(System *Bank, uint32 id);
-
 Error_States Delete_Customer(System *Bank, FILE *data_base, uint32 id);
 Error_States Customer_Transfer_Money(System *Bank, FILE *data_base, uint32 C_id, uint32 D_id, uint32 T_money);
-
 Error_States Customer_Deposit_Money(System *Bank, FILE *data_base, uint32 id, uint32 money);
 Error_States Customer_Withdraw_Money(System *Bank, FILE *data_base, uint32 id, uint32 money);
 
