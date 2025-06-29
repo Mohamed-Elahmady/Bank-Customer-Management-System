@@ -10,12 +10,8 @@
 /******************* Section 2 : Macros Declarations *******************/
 
 #define System_Empty    -1
-#define delay_time      3000
 #define Name_Size       1000
 #define Max_Customers   1000000
-
-#define FILE_PATH       "/Users/mohammedel-ahmady/Data/Bank-Customer-Management-System/data_base.txt"
-
 
 /******************* Section 3 : Macros Functions Declarations *******************/
 
