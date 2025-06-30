@@ -52,3 +52,9 @@ Customer's ID : 246123
 Customer's Phone Number : 01049873322
 Customer's Cash Amount : 62464
 ------------------------------------------------------------------------
+Customer [10]
+Customer's Name : Ahmed Zaki
+Customer's ID : 889233
+Customer's Phone Number : 01098762345
+Customer's Cash Amount : 760000
+------------------------------------------------------------------------
