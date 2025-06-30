@@ -32,15 +32,50 @@ int main(){
         delay(delay_time);
         break;
     case 2:
-        
+        printf("Enter your ID: ");
+        scanf("%ld", &target_customer);
+        retval = Edit_Customer(Bank,data_base,target_customer);
         break;
     case 3:
-        
+        printf("Please Enter Customer ID : ");
+        scanf("%ld", &target_customer);
+        retval = Display_Customer_information(Bank,target_customer);
         break;
     case 4:
+          printf("Please Enter Customer ID : ");
+        scanf("%ld", &target_customer);
+
+if (data_base == NULL)
+{
+    printf("Unable to open file.\n");
+}else {
+    if (Delete_Customer(Bank,data_base,target_customer) == OP_Success)
+        printf("Customer deleted successfully.\n");
+    else
+        printf("Failed to delete customer.\n");
+
+    fclose(data_base);
+}
         break;
     case 5:
-        
+          printf("Enter the sender ID: ");
+     scanf("%ld", &C_id);
+       printf("Enter the receiver ID: ");
+     scanf("%ld", &D_id);
+       printf("Enter tne tranfer money: ");
+     scanf("%ld", &t_money);
+     if (data_base == NULL)
+{
+    printf("Unable to open file.\n");
+}else{
+if (Customer_Transfer_Money(Bank,data_base,C_id,D_id,t_money) == OP_Success){
+   printf("operation success\n");
+
+}
+    else
+        printf("operation Failed .\n");
+        fclose(data_base);
+        }
         break;
     case 6:
         break;

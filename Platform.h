@@ -3,7 +3,7 @@
 
 #define EXIT_SUCESS             0
 
-typedef bool                    boolean;
+//typedef bool                    boolean;
 typedef unsigned char           uint8;
 typedef unsigned short          uint16;
 typedef unsigned long           uint32;

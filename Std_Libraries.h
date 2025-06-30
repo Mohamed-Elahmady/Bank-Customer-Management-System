@@ -21,7 +21,7 @@
 
 
 #define delay_time      3000
-#define FILE_PATH       "/Users/mohammedel-ahmady/Data/Bank-Customer-Management-System/data_base.txt"
+#define FILE_PATH "D:/IEEE/Embedded/Bank-Customer-Management-System/data_base.txt"
 
 /******************* Section 2 : Macros Declarations *******************/
 
