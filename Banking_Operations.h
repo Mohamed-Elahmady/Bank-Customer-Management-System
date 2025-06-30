@@ -9,7 +9,7 @@
 
 /******************* Section 2 : Macros Declarations *******************/
 
-#define System_Empty    -1
+#define System_Empty    0
 #define Name_Size       1000
 #define Max_Customers   1000000
 
@@ -26,7 +26,7 @@ typedef enum{
 
 typedef struct
 {
-    uint8 name[Name_Size];
+    sint8 name[Name_Size];
     uint32 ID;
     uint32 Phone_Number;
     uint32 Cash_Amount;

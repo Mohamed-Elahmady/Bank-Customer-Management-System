@@ -1,24 +1,60 @@
 Customer [1]
-Customer's Name : Mohammed Ghareb
-Customer's ID : 222444
-Customer's Phone Number : 01507001083
-Customer's Cash Amount : 7000000
+Customer's Name : Hatem Ayman
+Customer's ID : 909080
+Customer's Phone Number : 01208563254
+Customer's Cash Amount : 214444
 ------------------------------------------------------------------------
 Customer [2]
-Customer's Name : Mahmoud Elsayed
-Customer's ID : 111222
-Customer's Phone Number : 01029998490
-Customer's Cash Amount : 1234000
+Customer's Name : Mohamed Elahmady
+Customer's ID : 228899
+Customer's Phone Number : 01507001083
+Customer's Cash Amount : 22000
 ------------------------------------------------------------------------
 Customer [3]
-Customer's Name : Ibrahim
-Customer's ID : 123456
-Customer's Phone Number : 01034309210
-Customer's Cash Amount : 12345678
+Customer's Name : Ayman Yasser
+Customer's ID : 777755
+Customer's Phone Number : 01045903377
+Customer's Cash Amount : 8888887588
 ------------------------------------------------------------------------
 Customer [4]
-Customer's Name : Sayed
-Customer's ID : 885599
-Customer's Phone Number : 01122996830
-Customer's Cash Amount : 489000
+Customer's Name : Amira Mahmoud
+Customer's ID : 123456
+Customer's Phone Number : 01098882345
+Customer's Cash Amount : 20000
+------------------------------------------------------------------------
+Customer [5]
+Customer's Name : Abdelfatah Ibrahim
+Customer's ID : 246810
+Customer's Phone Number : 01017774389
+Customer's Cash Amount : 488000
+------------------------------------------------------------------------
+Customer [6]
+Customer's Name : Nouran Amr
+Customer's ID : 100001
+Customer's Phone Number : 01087654321
+Customer's Cash Amount : 15000
+------------------------------------------------------------------------
+Customer [7]
+Customer's Name : Salma Adel
+Customer's ID : 100002
+Customer's Phone Number : 01123456789
+Customer's Cash Amount : 25000
+------------------------------------------------------------------------
+Customer [8]
+Customer's Name : Mahmoud Samir
+Customer's ID : 554433
+Customer's Phone Number : 01035467896
+Customer's Cash Amount : 12222222
+------------------------------------------------------------------------
+Customer [9]
+Customer's Name : Samy Ali
+Customer's ID : 777555
+Customer's Phone Number : 01023009080
+Customer's Cash Amount : 12340
+------------------------------------------------------------------------
+Customer [10]
+Customer's Name : Manar Abdelrahman
+Customer's ID : 234987
+Customer's Phone Number : 01032290101
+Customer's Cash Amount : 7000
 ------------------------------------------------------------------------
