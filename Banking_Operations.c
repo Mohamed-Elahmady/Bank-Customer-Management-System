@@ -1,5 +1,5 @@
-/******************* Section 0 : Includes *******************/
-
+******************* Section 0 : Includes *******************/
+/
 #include "Banking_Operations.h"
 
 /******************* Section 1 :  Variables Definitions *******************/
@@ -215,7 +215,56 @@ Error_States Display_Customer_information(System *Bank, uint32 id)
     }
     return state;
 }
+//Delete Customer
+Error_States Delete_Customer(System *Bank, FILE *data_base, uint32 id)
+{
+   Error_States state = OP_Failed;
 
+
+    sint32 index = find_customer_id(Bank, id);
+    if (index == -1)
+    {
+        printf("Customer with ID %lu not found.\n", id);
+        return OP_Failed;
+    }
+
+    for (uint32 i = index; i < Bank->Customer_pointer - 1; i++)
+    {
+        Bank->Customers[i] = Bank->Customers[i + 1];
+    }
+
+    Bank->Customer_pointer--;
+
+    state = Data_Base_Overwrite_data(Bank, data_base);
+
+    return state;
+}
+//transfer money
+Error_States Customer_Transfer_Money(System *Bank, FILE *data_base, uint32 C_id, uint32 D_id, uint32 T_money)
+{
+    Error_States state = OP_Failed;
+sint32 index_1 = find_customer_id(Bank, C_id);
+    if (index_1 == -1)
+    {
+        printf("Customer with ID %lu not found.\n", C_id);
+        return OP_Failed;
+    }
+    sint32 index_2 = find_customer_id(Bank, D_id);
+    if (index_2 == -1)
+    {
+        printf("Customer with ID %lu not found.\n", D_id);
+        return OP_Failed;
+    }
+    if ( T_money > Bank->Customers[index_1].Cash_Amount){
+        printf("you don't have enough money");
+        return OP_Failed;
+    }else{
+     Bank->Customers[index_1].Cash_Amount -= T_money;
+        Bank->Customers[index_2].Cash_Amount += T_money;
+    state = Data_Base_Overwrite_data(Bank, data_base);
+  return state;
+    }
+}
 /******************* Section 2 :  Helper Functions Definitions *******************/
 
 static bool valid_phone_number(uint32 num){
