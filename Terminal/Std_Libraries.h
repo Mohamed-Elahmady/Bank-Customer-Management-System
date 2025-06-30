@@ -1,3 +1,10 @@
+/**
+ * @file      : Std_libraries.h
+ * @authors   : Mohammed-Elahmady, Hatem Ayman, Mayar Basha, A'laa Abd-Elhady
+ * @brief     : calling Libraries to use in Project
+ * @date      : Sat 28 Jun 2025
+ */
+
 /******************* Section 0 : File Guard *******************/
 
 #ifndef _STD_LIBRARIES_H
@@ -13,33 +20,25 @@
 #include "Platform.h"
 #ifdef _WIN32
 #include <windows.h>
-#define delay(x)  Sleep(x)
-#else 
+#define delay(x) Sleep(x)
+#else
 #include <unistd.h>
-#define delay(x)  sleep(x/1000)
+#define delay(x) sleep(x / 1000)
 #endif
-
-
 
 /******************* Section 2 : Macros Declarations *******************/
 
-#define delay_time      3000
-#define FILE_PATH       "/Users/mohammedel-ahmady/Data/Bank-Customer-Management-System/data_base.txt"
-
+#define MENU_WIDTH 242
+#define delay_time 3000
+#define FILE_PATH "/Users/mohammedel-ahmady/Data/Bank-Customer-Management-System/Terminal/data_base.txt"
 
 /******************* Section 3 : Macros Functions Declarations *******************/
 
-
-
 /******************* Section 4 : User Defined Data Types & Variables Declarations *******************/
-
-
 
 /******************* Section 5 : Software Interfaces Declarations (APIs) *******************/
 
+void print_line();
+void print_centered(const char *message);
 
-#endif /* _STD_LIBRARIES_H */
-
-
-
-
+#endif /* _STD_LIBRARIES_H*/

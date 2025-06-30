@@ -1,3 +1,10 @@
+/**
+ * @file      : Bankin_Operations.h
+ * @authors   : Mohammed-Elahmady, Hatem Ayman, Mayar Basha, A'laa Abd-Elhady
+ * @brief     : Declarations of our project Functions
+ * @date      : Sat 28 Jun 2025
+ */
+
 /******************* Section 0 : File Guard *******************/
 
 #ifndef BANKING_OPERATIONS_H
@@ -9,20 +16,19 @@
 
 /******************* Section 2 : Macros Declarations *******************/
 
-#define System_Empty    0
-#define Name_Size       1000
-#define Max_Customers   1000000
+#define System_Empty 0
+#define Name_Size 1000
+#define Max_Customers 1000000
 
 /******************* Section 3 : Macros Functions Declarations *******************/
 
-
-
 /******************* Section 4 : User Defined Data Types & Variables Declarations *******************/
 
-typedef enum{
-    OP_Failed  = 0,
+typedef enum
+{
+    OP_Failed = 0,
     OP_Success
-}Error_States;
+} Error_States;
 
 typedef struct
 {
@@ -30,13 +36,13 @@ typedef struct
     uint32 ID;
     uint32 Phone_Number;
     uint32 Cash_Amount;
-}Customer;
+} Customer;
 
 typedef struct
 {
     Customer Customers[Max_Customers];
     uint32 Customer_pointer;
-}System;
+} System;
 
 /******************* Section 5 : Software Interfaces Declarations (APIs) *******************/
 System *System_init(Error_States *state);
@@ -49,4 +55,4 @@ Error_States Customer_Transfer_Money(System *Bank, FILE *data_base, uint32 C_id,
 Error_States Customer_Deposit_Money(System *Bank, FILE *data_base, uint32 id, uint32 money);
 Error_States Customer_Withdraw_Money(System *Bank, FILE *data_base, uint32 id, uint32 money);
 
-#endif /* BANKING_OPERATIONS_H */
+#endif /* BANKING_OPERATIONS_H*/
