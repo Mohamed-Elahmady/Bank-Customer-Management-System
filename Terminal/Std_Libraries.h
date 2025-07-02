@@ -30,7 +30,7 @@
 
 #define MENU_WIDTH 242
 #define delay_time 3000
-#define FILE_PATH "/Users/mohammedel-ahmady/Data/Bank-Customer-Management-System/Terminal/data_base.txt"
+#define FILE_PATH "/Users/mohammedel-ahmady/Data/IEEE-RAS-Embeddded-Project1/Terminal/data_base.txt"
 
 /******************* Section 3 : Macros Functions Declarations *******************/
 
