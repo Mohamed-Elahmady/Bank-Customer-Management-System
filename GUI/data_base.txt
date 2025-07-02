@@ -1,0 +1,606 @@
+Customer [1]
+Customer's Name : Nada Tamer
+Customer's ID : 142532
+Customer's Phone Number : 01069449282
+Customer's Cash Amount : 1313050417
+------------------------------------------------------------------------
+Customer [2]
+Customer's Name : Samir Abbas
+Customer's ID : 259351
+Customer's Phone Number : 01247202646
+Customer's Cash Amount : 1381805166
+------------------------------------------------------------------------
+Customer [3]
+Customer's Name : Heba Mostafa
+Customer's ID : 564032
+Customer's Phone Number : 01053099853
+Customer's Cash Amount : 403851756
+------------------------------------------------------------------------
+Customer [4]
+Customer's Name : Mohamed Mostafa
+Customer's ID : 502667
+Customer's Phone Number : 01175722941
+Customer's Cash Amount : 89361210
+------------------------------------------------------------------------
+Customer [5]
+Customer's Name : Tarek Ali
+Customer's ID : 243606
+Customer's Phone Number : 01079615112
+Customer's Cash Amount : 40905018
+------------------------------------------------------------------------
+Customer [6]
+Customer's Name : Mahmoud Mansour
+Customer's ID : 562966
+Customer's Phone Number : 01170384763
+Customer's Cash Amount : 11275529
+------------------------------------------------------------------------
+Customer [7]
+Customer's Name : Ahmed Khaled
+Customer's ID : 355976
+Customer's Phone Number : 01256573152
+Customer's Cash Amount : 305046139
+------------------------------------------------------------------------
+Customer [8]
+Customer's Name : Ahmed Mostafa
+Customer's ID : 308856
+Customer's Phone Number : 01107396890
+Customer's Cash Amount : 774431644
+------------------------------------------------------------------------
+Customer [9]
+Customer's Name : Youssef Hassan
+Customer's ID : 428810
+Customer's Phone Number : 01168912255
+Customer's Cash Amount : 1749137910
+------------------------------------------------------------------------
+Customer [10]
+Customer's Name : Omar Mansour
+Customer's ID : 964608
+Customer's Phone Number : 01080027096
+Customer's Cash Amount : 330595742
+------------------------------------------------------------------------
+Customer [11]
+Customer's Name : Samir Samy
+Customer's ID : 554013
+Customer's Phone Number : 01130746201
+Customer's Cash Amount : 1279811223
+------------------------------------------------------------------------
+Customer [12]
+Customer's Name : Salma Adel
+Customer's ID : 179908
+Customer's Phone Number : 01055015383
+Customer's Cash Amount : 470213096
+------------------------------------------------------------------------
+Customer [13]
+Customer's Name : Mahmoud Elsayed
+Customer's ID : 915766
+Customer's Phone Number : 01184457326
+Customer's Cash Amount : 34207626
+------------------------------------------------------------------------
+Customer [14]
+Customer's Name : Mohamed Mostafa
+Customer's ID : 898244
+Customer's Phone Number : 01594025796
+Customer's Cash Amount : 1108721530
+------------------------------------------------------------------------
+Customer [15]
+Customer's Name : Mohamed Samy
+Customer's ID : 495498
+Customer's Phone Number : 01590667421
+Customer's Cash Amount : 770049562
+------------------------------------------------------------------------
+Customer [16]
+Customer's Name : Laila Elsayed
+Customer's ID : 933546
+Customer's Phone Number : 01020650353
+Customer's Cash Amount : 1533266626
+------------------------------------------------------------------------
+Customer [17]
+Customer's Name : Youssef Mansour
+Customer's ID : 835557
+Customer's Phone Number : 01272448491
+Customer's Cash Amount : 1812451829
+------------------------------------------------------------------------
+Customer [18]
+Customer's Name : Samir Mansour
+Customer's ID : 243026
+Customer's Phone Number : 01032184194
+Customer's Cash Amount : 1156765563
+------------------------------------------------------------------------
+Customer [19]
+Customer's Name : Samy Adel
+Customer's ID : 385045
+Customer's Phone Number : 01514564001
+Customer's Cash Amount : 1420576309
+------------------------------------------------------------------------
+Customer [20]
+Customer's Name : Mahmoud Abdelrahman
+Customer's ID : 619425
+Customer's Phone Number : 01050990615
+Customer's Cash Amount : 1595510799
+------------------------------------------------------------------------
+Customer [21]
+Customer's Name : Ahmed Ehab
+Customer's ID : 372533
+Customer's Phone Number : 01085695792
+Customer's Cash Amount : 1048663867
+------------------------------------------------------------------------
+Customer [22]
+Customer's Name : Ahmed Mansour
+Customer's ID : 781676
+Customer's Phone Number : 01591647149
+Customer's Cash Amount : 463365050
+------------------------------------------------------------------------
+Customer [23]
+Customer's Name : Mohamed Ehab
+Customer's ID : 979413
+Customer's Phone Number : 01165300109
+Customer's Cash Amount : 1260976424
+------------------------------------------------------------------------
+Customer [24]
+Customer's Name : Samir Hegazy
+Customer's ID : 471242
+Customer's Phone Number : 01577866370
+Customer's Cash Amount : 976169686
+------------------------------------------------------------------------
+Customer [25]
+Customer's Name : Mohamed Sayed
+Customer's ID : 119887
+Customer's Phone Number : 01173334803
+Customer's Cash Amount : 420696421
+------------------------------------------------------------------------
+Customer [26]
+Customer's Name : Mahmoud Hegazy
+Customer's ID : 429300
+Customer's Phone Number : 01596632270
+Customer's Cash Amount : 1243438800
+------------------------------------------------------------------------
+Customer [27]
+Customer's Name : Ali Khaled
+Customer's ID : 465436
+Customer's Phone Number : 01108520157
+Customer's Cash Amount : 1314173972
+------------------------------------------------------------------------
+Customer [28]
+Customer's Name : Samir Mostafa
+Customer's ID : 831536
+Customer's Phone Number : 01012084832
+Customer's Cash Amount : 1610373389
+------------------------------------------------------------------------
+Customer [29]
+Customer's Name : Mariam Samir
+Customer's ID : 917938
+Customer's Phone Number : 01230157037
+Customer's Cash Amount : 349606191
+------------------------------------------------------------------------
+Customer [30]
+Customer's Name : Mostafa Hegazy
+Customer's ID : 755726
+Customer's Phone Number : 01138453570
+Customer's Cash Amount : 1785715249
+------------------------------------------------------------------------
+Customer [31]
+Customer's Name : Mostafa Ali
+Customer's ID : 896007
+Customer's Phone Number : 01221757125
+Customer's Cash Amount : 836884277
+------------------------------------------------------------------------
+Customer [32]
+Customer's Name : Mariam Mostafa
+Customer's ID : 396692
+Customer's Phone Number : 01150817941
+Customer's Cash Amount : 397619938
+------------------------------------------------------------------------
+Customer [33]
+Customer's Name : Mahmoud Samir
+Customer's ID : 835514
+Customer's Phone Number : 01557106790
+Customer's Cash Amount : 1837546881
+------------------------------------------------------------------------
+Customer [34]
+Customer's Name : Tarek Hassan
+Customer's ID : 722853
+Customer's Phone Number : 01202934544
+Customer's Cash Amount : 881146476
+------------------------------------------------------------------------
+Customer [35]
+Customer's Name : Omar Abbas
+Customer's ID : 560285
+Customer's Phone Number : 01247468971
+Customer's Cash Amount : 1006096430
+------------------------------------------------------------------------
+Customer [36]
+Customer's Name : Mohamed Tamer
+Customer's ID : 102944
+Customer's Phone Number : 01186923202
+Customer's Cash Amount : 460814399
+------------------------------------------------------------------------
+Customer [37]
+Customer's Name : Laila Adel
+Customer's ID : 791138
+Customer's Phone Number : 01249863902
+Customer's Cash Amount : 1768485620
+------------------------------------------------------------------------
+Customer [38]
+Customer's Name : Youssef Ali
+Customer's ID : 877546
+Customer's Phone Number : 01247631877
+Customer's Cash Amount : 1779835450
+------------------------------------------------------------------------
+Customer [39]
+Customer's Name : Sara Samy
+Customer's ID : 984383
+Customer's Phone Number : 01527301263
+Customer's Cash Amount : 1676064238
+------------------------------------------------------------------------
+Customer [40]
+Customer's Name : Mahmoud Ehab
+Customer's ID : 674586
+Customer's Phone Number : 01205267905
+Customer's Cash Amount : 1660245731
+------------------------------------------------------------------------
+Customer [41]
+Customer's Name : Laila Ali
+Customer's ID : 199563
+Customer's Phone Number : 01230010569
+Customer's Cash Amount : 1564243142
+------------------------------------------------------------------------
+Customer [42]
+Customer's Name : Nada Hegazy
+Customer's ID : 362531
+Customer's Phone Number : 01090455757
+Customer's Cash Amount : 519611605
+------------------------------------------------------------------------
+Customer [43]
+Customer's Name : Youssef Abbas
+Customer's ID : 469201
+Customer's Phone Number : 01538098088
+Customer's Cash Amount : 1374281375
+------------------------------------------------------------------------
+Customer [44]
+Customer's Name : Mariam Hegazy
+Customer's ID : 221310
+Customer's Phone Number : 01530363445
+Customer's Cash Amount : 1026730137
+------------------------------------------------------------------------
+Customer [45]
+Customer's Name : Salma Abbas
+Customer's ID : 535072
+Customer's Phone Number : 01130440993
+Customer's Cash Amount : 1933257131
+------------------------------------------------------------------------
+Customer [46]
+Customer's Name : Ahmed Khaled
+Customer's ID : 848898
+Customer's Phone Number : 01063452456
+Customer's Cash Amount : 1978532866
+------------------------------------------------------------------------
+Customer [47]
+Customer's Name : Ahmed Adel
+Customer's ID : 577059
+Customer's Phone Number : 01563941549
+Customer's Cash Amount : 1812419253
+------------------------------------------------------------------------
+Customer [48]
+Customer's Name : Heba Salah
+Customer's ID : 558879
+Customer's Phone Number : 01573259841
+Customer's Cash Amount : 1454614654
+------------------------------------------------------------------------
+Customer [49]
+Customer's Name : Mariam Salah
+Customer's ID : 221588
+Customer's Phone Number : 01125893247
+Customer's Cash Amount : 1083535225
+------------------------------------------------------------------------
+Customer [50]
+Customer's Name : Mohamed Samy
+Customer's ID : 457832
+Customer's Phone Number : 01138318587
+Customer's Cash Amount : 646564315
+------------------------------------------------------------------------
+Customer [51]
+Customer's Name : Ahmed Abdelrahman
+Customer's ID : 761792
+Customer's Phone Number : 01055325104
+Customer's Cash Amount : 1775528056
+------------------------------------------------------------------------
+Customer [52]
+Customer's Name : Mariam Salah
+Customer's ID : 723894
+Customer's Phone Number : 01096249066
+Customer's Cash Amount : 686647318
+------------------------------------------------------------------------
+Customer [53]
+Customer's Name : Laila Ali
+Customer's ID : 103211
+Customer's Phone Number : 01544379688
+Customer's Cash Amount : 725832107
+------------------------------------------------------------------------
+Customer [54]
+Customer's Name : Samy Ehab
+Customer's ID : 850693
+Customer's Phone Number : 01056650833
+Customer's Cash Amount : 460146916
+------------------------------------------------------------------------
+Customer [55]
+Customer's Name : Mahmoud Mansour
+Customer's ID : 968105
+Customer's Phone Number : 01250892769
+Customer's Cash Amount : 1745502269
+------------------------------------------------------------------------
+Customer [56]
+Customer's Name : Heba Samir
+Customer's ID : 399464
+Customer's Phone Number : 01074063910
+Customer's Cash Amount : 59229468
+------------------------------------------------------------------------
+Customer [57]
+Customer's Name : Mervat Mostafa
+Customer's ID : 489501
+Customer's Phone Number : 01032232827
+Customer's Cash Amount : 455246968
+------------------------------------------------------------------------
+Customer [58]
+Customer's Name : Mahmoud Samy
+Customer's ID : 665502
+Customer's Phone Number : 01178829428
+Customer's Cash Amount : 1939114418
+------------------------------------------------------------------------
+Customer [59]
+Customer's Name : Salma Mostafa
+Customer's ID : 847162
+Customer's Phone Number : 01061155838
+Customer's Cash Amount : 1038149123
+------------------------------------------------------------------------
+Customer [60]
+Customer's Name : Ahmed Mostafa
+Customer's ID : 360813
+Customer's Phone Number : 01239367601
+Customer's Cash Amount : 189337357
+------------------------------------------------------------------------
+Customer [61]
+Customer's Name : Salma Adel
+Customer's ID : 866705
+Customer's Phone Number : 01294436591
+Customer's Cash Amount : 638248899
+------------------------------------------------------------------------
+Customer [62]
+Customer's Name : Ahmed Mostafa
+Customer's ID : 157305
+Customer's Phone Number : 01052627194
+Customer's Cash Amount : 71863987
+------------------------------------------------------------------------
+Customer [63]
+Customer's Name : Samir Abbas
+Customer's ID : 922980
+Customer's Phone Number : 01254132145
+Customer's Cash Amount : 1577546081
+------------------------------------------------------------------------
+Customer [64]
+Customer's Name : Mostafa Khaled
+Customer's ID : 563318
+Customer's Phone Number : 01193173424
+Customer's Cash Amount : 1871889857
+------------------------------------------------------------------------
+Customer [65]
+Customer's Name : Mahmoud Tamer
+Customer's ID : 930997
+Customer's Phone Number : 01245307160
+Customer's Cash Amount : 1291919469
+------------------------------------------------------------------------
+Customer [66]
+Customer's Name : Ahmed Khaled
+Customer's ID : 331743
+Customer's Phone Number : 01282381402
+Customer's Cash Amount : 1181171472
+------------------------------------------------------------------------
+Customer [67]
+Customer's Name : Samir Ali
+Customer's ID : 385236
+Customer's Phone Number : 01269890628
+Customer's Cash Amount : 1447230741
+------------------------------------------------------------------------
+Customer [68]
+Customer's Name : Omar Mansour
+Customer's ID : 769920
+Customer's Phone Number : 01580238336
+Customer's Cash Amount : 799165398
+------------------------------------------------------------------------
+Customer [69]
+Customer's Name : Youssef Ahmed
+Customer's ID : 651789
+Customer's Phone Number : 01096204429
+Customer's Cash Amount : 40489993
+------------------------------------------------------------------------
+Customer [70]
+Customer's Name : Ali Ahmed
+Customer's ID : 385257
+Customer's Phone Number : 01051797595
+Customer's Cash Amount : 875726941
+------------------------------------------------------------------------
+Customer [71]
+Customer's Name : Mahmoud Khaled
+Customer's ID : 593671
+Customer's Phone Number : 01173519293
+Customer's Cash Amount : 746406070
+------------------------------------------------------------------------
+Customer [72]
+Customer's Name : Salma Mostafa
+Customer's ID : 163787
+Customer's Phone Number : 01125962547
+Customer's Cash Amount : 1134477753
+------------------------------------------------------------------------
+Customer [73]
+Customer's Name : Ali Mansour
+Customer's ID : 306149
+Customer's Phone Number : 01289470021
+Customer's Cash Amount : 1512883204
+------------------------------------------------------------------------
+Customer [74]
+Customer's Name : Karim Mostafa
+Customer's ID : 886623
+Customer's Phone Number : 01194134531
+Customer's Cash Amount : 64898303
+------------------------------------------------------------------------
+Customer [75]
+Customer's Name : Samir Sayed
+Customer's ID : 327790
+Customer's Phone Number : 01151706853
+Customer's Cash Amount : 671995003
+------------------------------------------------------------------------
+Customer [76]
+Customer's Name : Mostafa Hassan
+Customer's ID : 697996
+Customer's Phone Number : 01170863313
+Customer's Cash Amount : 772500597
+------------------------------------------------------------------------
+Customer [77]
+Customer's Name : Laila Elsayed
+Customer's ID : 216996
+Customer's Phone Number : 01197439107
+Customer's Cash Amount : 193237806
+------------------------------------------------------------------------
+Customer [78]
+Customer's Name : Laila Mansour
+Customer's ID : 263999
+Customer's Phone Number : 01259988595
+Customer's Cash Amount : 128604516
+------------------------------------------------------------------------
+Customer [79]
+Customer's Name : Samy Samir
+Customer's ID : 229369
+Customer's Phone Number : 01117693515
+Customer's Cash Amount : 1854506417
+------------------------------------------------------------------------
+Customer [80]
+Customer's Name : Mostafa Abdelrahman
+Customer's ID : 357150
+Customer's Phone Number : 01033242922
+Customer's Cash Amount : 577658550
+------------------------------------------------------------------------
+Customer [81]
+Customer's Name : Mahmoud Hassan
+Customer's ID : 661236
+Customer's Phone Number : 01162765513
+Customer's Cash Amount : 1826789756
+------------------------------------------------------------------------
+Customer [82]
+Customer's Name : Karim Mostafa
+Customer's ID : 956625
+Customer's Phone Number : 01059556292
+Customer's Cash Amount : 1043384488
+------------------------------------------------------------------------
+Customer [83]
+Customer's Name : Salma Abdelrahman
+Customer's ID : 500945
+Customer's Phone Number : 01106658320
+Customer's Cash Amount : 375556683
+------------------------------------------------------------------------
+Customer [84]
+Customer's Name : Ahmed Tamer
+Customer's ID : 864735
+Customer's Phone Number : 01180241585
+Customer's Cash Amount : 277247923
+------------------------------------------------------------------------
+Customer [85]
+Customer's Name : Mohamed Ehab
+Customer's ID : 556328
+Customer's Phone Number : 01029123523
+Customer's Cash Amount : 1097128330
+------------------------------------------------------------------------
+Customer [86]
+Customer's Name : Ali Abdelrahman
+Customer's ID : 526975
+Customer's Phone Number : 01508357611
+Customer's Cash Amount : 1568846932
+------------------------------------------------------------------------
+Customer [87]
+Customer's Name : Youssef Ali
+Customer's ID : 153745
+Customer's Phone Number : 01225598113
+Customer's Cash Amount : 1305591152
+------------------------------------------------------------------------
+Customer [88]
+Customer's Name : Samy Hassan
+Customer's ID : 510888
+Customer's Phone Number : 01042547401
+Customer's Cash Amount : 529050018
+------------------------------------------------------------------------
+Customer [89]
+Customer's Name : Samy Salah
+Customer's ID : 390735
+Customer's Phone Number : 01515938527
+Customer's Cash Amount : 646988317
+------------------------------------------------------------------------
+Customer [90]
+Customer's Name : Samy Elsayed
+Customer's ID : 919975
+Customer's Phone Number : 01596292000
+Customer's Cash Amount : 1542465639
+------------------------------------------------------------------------
+Customer [91]
+Customer's Name : Sara Abdelrahman
+Customer's ID : 428468
+Customer's Phone Number : 01161981989
+Customer's Cash Amount : 498453719
+------------------------------------------------------------------------
+Customer [92]
+Customer's Name : Mervat Hassan
+Customer's ID : 452352
+Customer's Phone Number : 01524836128
+Customer's Cash Amount : 1556954448
+------------------------------------------------------------------------
+Customer [93]
+Customer's Name : Sara Mansour
+Customer's ID : 917544
+Customer's Phone Number : 01077483318
+Customer's Cash Amount : 1580590453
+------------------------------------------------------------------------
+Customer [94]
+Customer's Name : Ahmed Ehab
+Customer's ID : 499791
+Customer's Phone Number : 01045673214
+Customer's Cash Amount : 1421832306
+------------------------------------------------------------------------
+Customer [95]
+Customer's Name : Ahmed Ahmed
+Customer's ID : 898705
+Customer's Phone Number : 01510289877
+Customer's Cash Amount : 1117075966
+------------------------------------------------------------------------
+Customer [96]
+Customer's Name : Heba Mansour
+Customer's ID : 377229
+Customer's Phone Number : 01079472170
+Customer's Cash Amount : 60988450
+------------------------------------------------------------------------
+Customer [97]
+Customer's Name : Mahmoud Khaled
+Customer's ID : 769224
+Customer's Phone Number : 01515039122
+Customer's Cash Amount : 1378231611
+------------------------------------------------------------------------
+Customer [98]
+Customer's Name : Omar Hassan
+Customer's ID : 701362
+Customer's Phone Number : 01528638983
+Customer's Cash Amount : 660950000
+------------------------------------------------------------------------
+Customer [99]
+Customer's Name : Mahmoud Talat
+Customer's ID : 100009
+Customer's Phone Number : 01029667879
+Customer's Cash Amount : 30006000
+------------------------------------------------------------------------
+Customer [100]
+Customer's Name : Mahmoud Hamdy
+Customer's ID : 997744
+Customer's Phone Number : 01037721819
+Customer's Cash Amount : 900000
+------------------------------------------------------------------------
+Customer [101]
+Customer's Name : Samy Samir
+Customer's ID : 022344
+Customer's Phone Number : 01059239854
+Customer's Cash Amount : 12222
+------------------------------------------------------------------------

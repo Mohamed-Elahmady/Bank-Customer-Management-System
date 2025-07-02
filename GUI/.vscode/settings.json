@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "gtk.h": "c",
+        "banking_operations.h": "c",
+        "std_libraries.h": "c"
+    }
+}
