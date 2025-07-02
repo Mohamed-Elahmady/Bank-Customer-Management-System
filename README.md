@@ -33,7 +33,11 @@ Compilation:
 
 To compile the program, use the following command:
 
+in Terminal :
 #gcc -o Main Main.c Bank_Operations.c
+
+in GUI :
+gcc `pkg-config --cflags gtk+-3.0` -o Main Main.c Banking_Operations.c `pkg-config --libs gtk+-3.0`
 
 How It Works:
     •    Customer data is loaded from data_base.txt when the program starts.
